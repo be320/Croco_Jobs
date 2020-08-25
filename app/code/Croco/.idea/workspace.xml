@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07e34d3d-7594-412a-8661-18ed60949a36" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Jobs/Block/Adminhtml/Job/Edit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jobs/Block/Adminhtml/Job/Edit/Form.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jobs/Controller/Adminhtml/Job/Delete.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jobs/Controller/Adminhtml/Job/Edit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jobs/Controller/Adminhtml/Job/NewAction.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jobs/Controller/Adminhtml/Job/Save.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jobs/Model/Source/Department.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jobs/Model/Source/Job/Status.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jobs/Ui/Component/Listing/Column/JobActions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jobs/view/adminhtml/layout/jobs_job_edit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jobs/view/adminhtml/layout/jobs_job_index.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jobs/view/adminhtml/ui_component/jobs_job_listing.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jobs/etc/di.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Jobs/etc/di.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jobs/Model/Job.php" beforeDir="false" afterPath="$PROJECT_DIR$/Jobs/Model/Job.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,17 +39,37 @@
       <workItem from="1598278873827" duration="9126000" />
       <workItem from="1598308574155" duration="3060000" />
       <workItem from="1598347003803" duration="8300000" />
-      <workItem from="1598365909270" duration="3265000" />
+      <workItem from="1598365909270" duration="3902000" />
     </task>
+    <task id="LOCAL-00001" summary="Implemented Jobs Admin Stuff">
+      <created>1598369756779</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598369756779</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Implemented Jobs Admin Stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented Jobs Admin Stuff" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="689" y="146" width="912" height="911" key="CommitChangelistDialog2" timestamp="1598369755636">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="689" y="146" width="912" height="911" key="CommitChangelistDialog2/70.27.1850.1053@70.27.1850.1053" timestamp="1598369755636" />
     <state x="356" y="258" width="1022" height="737" key="SettingsEditor" timestamp="1598316556591">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="356" y="258" width="1022" height="737" key="SettingsEditor/70.27.1850.1053@70.27.1850.1053" timestamp="1598316556591" />
+    <state x="570" y="290" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1598369766538">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="570" y="290" width="800" height="535" key="Vcs.Push.Dialog.v2/70.27.1850.1053@70.27.1850.1053" timestamp="1598369766538" />
   </component>
 </project>

@@ -37,4 +37,16 @@ class Job extends AbstractModel
     {
         $this->_init('Croco\Jobs\Model\ResourceModel\Job');
     }
+
+    public function getEnableStatus() {
+        return 1;
+    }
+
+    public function getDisableStatus() {
+        return 0;
+    }
+
+    public function getAvailableStatuses() {
+        return [$this->getDisableStatus() => __('Disabled'), $this->getEnableStatus() => __('Enabled')];
+    }
 }
