@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Croco_Jobs::job_head" title="Jobs" module="Croco_Jobs" sortOrder="100" resource="Croco_Jobs::job_head" />
+        <add id="Croco_Jobs::department" title="Departments" module="Croco_Jobs" sortOrder="10" parent="Croco_Jobs::job_head" action="jobs/department" resource="Croco_Jobs::job" />
+        <add id="Croco_Jobs::job" title="Jobs" module="Croco_Jobs" sortOrder="20" parent="Croco_Jobs::job_head" action="jobs/job" resource="Croco_Jobs::job" />
+    </menu>
+</config>
