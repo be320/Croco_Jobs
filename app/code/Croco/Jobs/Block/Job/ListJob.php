@@ -78,7 +78,12 @@ class ListJob extends \Magento\Framework\View\Element\Template
     {
         if ($this->_jobCollection === null) {
 
-            $jobCollection = $this->_job->getCollection()->addStatusFilter($this->_job, $this->_department);
+            $jobCollection = $this->_job->getCollection()->addFieldToSelect('*')->join(
+                        array('department' => $this->_department->getResource()->getMainTable()),
+                        'main_table.department_id = department.'.$this->_job->getIdFieldName(),
+                        array('department_name' => 'name')
+                    );
+
 
             $this->_jobCollection = $jobCollection;
         }

@@ -2,12 +2,11 @@
 $jobCollection = $this->getLoadedJobCollection();
 $iterator = 1;
 $total = $jobCollection->count();
-echo $total;
 ?>
 
 <div class="job-wrapper">
     <ol class="jobs list">
-        <?php foreach($jobCollection AS $job): ?>
+        <?php foreach($jobCollection AS $job):?>
             <li class="item<?php echo ($iterator == 1) ? ' first' : ''; ?><?php echo ($total == $iterator) ? ' last' : ''; ?>">
                 <div class="title">
                     <a href="<?php echo $this->getJobUrl($job); ?>" title="<?php echo $job->getTitle(); ?>">

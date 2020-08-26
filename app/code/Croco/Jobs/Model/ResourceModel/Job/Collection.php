@@ -27,6 +27,7 @@ class Collection extends AbstractCollection
                 array('department_name' => 'name')
             );
 
+
         return $this;
     }
 

@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07e34d3d-7594-412a-8661-18ed60949a36" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Jobs/Block/Job/ListJob.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jobs/Controller/Job/Index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jobs/etc/frontend/routes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jobs/view/frontend/layout/default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jobs/view/frontend/layout/jobs_job_index.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jobs/view/frontend/templates/jobs/list.phtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jobs/view/frontend/web/jobs.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.user.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.user.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jobs/Block/Job/ListJob.php" beforeDir="false" afterPath="$PROJECT_DIR$/Jobs/Block/Job/ListJob.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Jobs/Model/ResourceModel/Job/Collection.php" beforeDir="false" afterPath="$PROJECT_DIR$/Jobs/Model/ResourceModel/Job/Collection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jobs/view/frontend/templates/jobs/list.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/Jobs/view/frontend/templates/jobs/list.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../pub/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/../../../pub/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../pub/.user.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../../../pub/.user.ini" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +33,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -49,7 +47,10 @@
       <workItem from="1598308574155" duration="3060000" />
       <workItem from="1598347003803" duration="8300000" />
       <workItem from="1598365909270" duration="3964000" />
-      <workItem from="1598389666190" duration="5575000" />
+      <workItem from="1598389666190" duration="5754000" />
+      <workItem from="1598435526464" duration="1437000" />
+      <workItem from="1598436975092" duration="891000" />
+      <workItem from="1598440023402" duration="5620000" />
     </task>
     <task id="LOCAL-00001" summary="Implemented Jobs Admin Stuff">
       <created>1598369756779</created>
@@ -65,7 +66,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598370123553</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Bug: Jobs Count retrieved = 0">
+      <created>1598396869590</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598396869590</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -74,20 +82,21 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Implemented Jobs Admin Stuff" />
     <MESSAGE value="Fixed Bugs in Job Model" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed Bugs in Job Model" />
+    <MESSAGE value="Bug: Jobs Count retrieved = 0" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bug: Jobs Count retrieved = 0" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="689" y="146" width="912" height="911" key="CommitChangelistDialog2" timestamp="1598370123443">
+    <state x="689" y="146" width="912" height="911" key="CommitChangelistDialog2" timestamp="1598396868603">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state x="689" y="146" width="912" height="911" key="CommitChangelistDialog2/70.27.1850.1053@70.27.1850.1053" timestamp="1598370123443" />
-    <state x="356" y="258" width="1022" height="737" key="SettingsEditor" timestamp="1598316556591">
+    <state x="689" y="146" width="912" height="911" key="CommitChangelistDialog2/70.27.1850.1053@70.27.1850.1053" timestamp="1598396868603" />
+    <state x="601" y="160" width="1022" height="737" key="SettingsEditor" timestamp="1598436962959">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state x="356" y="258" width="1022" height="737" key="SettingsEditor/70.27.1850.1053@70.27.1850.1053" timestamp="1598316556591" />
-    <state x="570" y="290" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1598370137917">
+    <state x="601" y="160" width="1022" height="737" key="SettingsEditor/70.27.1850.1053@70.27.1850.1053" timestamp="1598436962959" />
+    <state x="570" y="290" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1598396875161">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state x="570" y="290" width="800" height="535" key="Vcs.Push.Dialog.v2/70.27.1850.1053@70.27.1850.1053" timestamp="1598370137917" />
+    <state x="570" y="290" width="800" height="535" key="Vcs.Push.Dialog.v2/70.27.1850.1053@70.27.1850.1053" timestamp="1598396875161" />
   </component>
 </project>
