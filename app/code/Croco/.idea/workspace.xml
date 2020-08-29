@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07e34d3d-7594-412a-8661-18ed60949a36" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Courses/Block/Instructor/View.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Courses/registration.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Courses/Block/Course/ListCourse.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Courses/Block/Course/View.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +60,7 @@
       <workItem from="1598436975092" duration="891000" />
       <workItem from="1598440023402" duration="5929000" />
       <workItem from="1598449292076" duration="8538000" />
-      <workItem from="1598696819127" duration="10186000" />
+      <workItem from="1598696819127" duration="12656000" />
     </task>
     <task id="LOCAL-00001" summary="Implemented Jobs Admin Stuff">
       <created>1598369756779</created>
@@ -104,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598700158903</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Implemented Instructor Block View">
+      <created>1598713392215</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1598713392215</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,7 +125,8 @@
     <MESSAGE value="AddFieldToFilter Problem Solved" />
     <MESSAGE value="Viewing Blank Page Bug" />
     <MESSAGE value="Fixed Bugs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed Bugs" />
+    <MESSAGE value="Implemented Instructor Block View" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented Instructor Block View" />
   </component>
   <component name="WindowStateProjectService">
     <state x="905" y="103" width="700" height="766" key="#PHP" timestamp="1598454482057">
@@ -129,10 +137,10 @@
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="496" y="201" width="1084" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1598454482872" />
-    <state x="662" y="56" width="912" height="911" key="CommitChangelistDialog2" timestamp="1598700158568">
+    <state x="662" y="56" width="912" height="911" key="CommitChangelistDialog2" timestamp="1598713392136">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state x="662" y="56" width="912" height="911" key="CommitChangelistDialog2/70.27.1850.1053@70.27.1850.1053" timestamp="1598700158568" />
+    <state x="662" y="56" width="912" height="911" key="CommitChangelistDialog2/70.27.1850.1053@70.27.1850.1053" timestamp="1598713392136" />
     <state x="699" y="270" width="424" height="491" key="FileChooserDialogImpl" timestamp="1598707219829">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
@@ -141,9 +149,9 @@
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="601" y="160" width="1022" height="737" key="SettingsEditor/70.27.1850.1053@70.27.1850.1053" timestamp="1598457392846" />
-    <state x="570" y="290" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1598700164690">
+    <state x="570" y="290" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1598713397518">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state x="570" y="290" width="800" height="535" key="Vcs.Push.Dialog.v2/70.27.1850.1053@70.27.1850.1053" timestamp="1598700164690" />
+    <state x="570" y="290" width="800" height="535" key="Vcs.Push.Dialog.v2/70.27.1850.1053@70.27.1850.1053" timestamp="1598713397518" />
   </component>
 </project>
