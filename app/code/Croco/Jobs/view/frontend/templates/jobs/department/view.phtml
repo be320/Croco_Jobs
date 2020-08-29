@@ -1,7 +1,6 @@
 <?php
 $department = $this->getLoadedDepartment();
 $jobCollection = $this->getLoadedJobsCollection();
-
 $iterator = 1;
 $total = $jobCollection->count();
 ?>
@@ -22,7 +21,7 @@ $total = $jobCollection->count();
                     <div class="department_name">
                         <?php echo __('Department : '); ?>
                         <a href="<?php echo $this->getDepartmentUrl($job); ?>" title="<?php echo $job->getDepartmentName(); ?>">
-                            <?php echo $job->getDepartmentName(); ?>
+                            <?php echo $department->getName(); ?>
                         </a>
                     </div>
                     <div class="type"><?php echo $job->getType(); ?></div>

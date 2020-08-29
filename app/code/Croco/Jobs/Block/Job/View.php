@@ -21,6 +21,7 @@ class View extends \Magento\Framework\View\Element\Template
         $this->_job = $job;
         $this->_department = $department;
 
+
         parent::__construct(
             $context,
             $data
@@ -79,6 +80,7 @@ class View extends \Magento\Framework\View\Element\Template
 
     protected function _getJob()
     {
+
         if (!$this->_job->getId()) {
             // our model is already set in the construct
             // but I put this method to load in case the model is not loaded

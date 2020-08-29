@@ -102,8 +102,8 @@ class View extends \Magento\Framework\View\Element\Template
     protected function _getJobsCollection(){
         if($this->_jobCollection === null && $this->_department->getId()){
             $jobCollection = $this->_job->getCollection()
-                ->addFieldToFilter('department_id', $this->_department->getId())
-                ->addStatusFilter($this->_job, $this->_department);
+                ->addFieldToFilter('department_id', $this->_department->getId());
+//                ->addStatusFilter($this->_job, $this->_department);
             $this->_jobCollection = $jobCollection;
         }
         return $this->_jobCollection;
